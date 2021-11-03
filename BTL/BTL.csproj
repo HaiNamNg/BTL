@@ -128,6 +128,7 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\KhoasController.cs" />
+    <Compile Include="Controllers\LopsController.cs" />
     <Compile Include="Controllers\SinhViensController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -147,7 +148,6 @@
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Khoa.cs" />
     <Compile Include="Models\Lop.cs" />
-    <Compile Include="Models\LopsController.cs" />
     <Compile Include="Models\QlySvDBcontext.cs" />
     <Compile Include="Models\SinhVien.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

@@ -6,8 +6,9 @@ using System.Linq;
 using System.Net;
 using System.Web;
 using System.Web.Mvc;
+using BTL.Models;
 
-namespace BTL.Models
+namespace BTL.Controllers
 {
     public class LopsController : Controller
     {
