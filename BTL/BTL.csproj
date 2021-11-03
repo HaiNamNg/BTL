@@ -127,6 +127,7 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\KhoasController.cs" />
     <Compile Include="Controllers\SinhViensController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -146,6 +147,7 @@
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Khoa.cs" />
     <Compile Include="Models\Lop.cs" />
+    <Compile Include="Models\LopsController.cs" />
     <Compile Include="Models\QlySvDBcontext.cs" />
     <Compile Include="Models\SinhVien.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -191,6 +193,16 @@
     <Content Include="Views\SinhViens\Details.cshtml" />
     <Content Include="Views\SinhViens\Edit.cshtml" />
     <Content Include="Views\SinhViens\Index.cshtml" />
+    <Content Include="Views\Khoas\Create.cshtml" />
+    <Content Include="Views\Khoas\Delete.cshtml" />
+    <Content Include="Views\Khoas\Details.cshtml" />
+    <Content Include="Views\Khoas\Edit.cshtml" />
+    <Content Include="Views\Khoas\Index.cshtml" />
+    <Content Include="Views\Lops\Create.cshtml" />
+    <Content Include="Views\Lops\Delete.cshtml" />
+    <Content Include="Views\Lops\Details.cshtml" />
+    <Content Include="Views\Lops\Edit.cshtml" />
+    <Content Include="Views\Lops\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

@@ -1,0 +1,42 @@
+﻿@model BTL.Models.Lop
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Lop</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.MaLop)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.MaLop)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.GiaoVien)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.GiaoVien)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.MaMonHoc)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.MaMonHoc)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.TenLop }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
