@@ -16,6 +16,7 @@ namespace BTL.Models
         public string MaLop { get; set; }
         [Required]
         public string GiaoVien { get; set; }
+        [Required]
         public string MaMonHoc { get; set; }
         
     }

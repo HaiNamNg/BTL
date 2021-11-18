@@ -145,7 +145,12 @@
     <Compile Include="Migrations\202111030918139_1.Designer.cs">
       <DependentUpon>202111030918139_1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202111090902349_1234.cs" />
+    <Compile Include="Migrations\202111090902349_1234.Designer.cs">
+      <DependentUpon>202111090902349_1234.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
+    <Compile Include="Models\AutoGenerateKey.cs" />
     <Compile Include="Models\Khoa.cs" />
     <Compile Include="Models\Lop.cs" />
     <Compile Include="Models\QlySvDBcontext.cs" />
@@ -229,6 +234,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202111030918139_1.resx">
       <DependentUpon>202111030918139_1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202111090902349_1234.resx">
+      <DependentUpon>202111090902349_1234.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

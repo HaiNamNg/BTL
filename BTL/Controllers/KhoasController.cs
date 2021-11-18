@@ -13,10 +13,12 @@ namespace BTL.Controllers
     public class KhoasController : Controller
     {
         private QlySvDBcontext db = new QlySvDBcontext();
+        AutoGenerateKey aukey = new AutoGenerateKey();
 
         // GET: Khoas
         public ActionResult Index()
         {
+            //lay gia tri ban ghi cuoi cung trong khoa
             return View(db.Khoas.ToList());
         }
 

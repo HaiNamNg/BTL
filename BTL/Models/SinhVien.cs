@@ -11,7 +11,7 @@ namespace BTL.Models
     public class SinhVien
     {
         [Key]
-        [Required]
+        [Required(ErrorMessage = "Ten sinh vien khong duoc de trong")]
         public string HoVaTen { get; set; }
         [Required]
         public string MaSinhVien { get; set; }
@@ -23,6 +23,7 @@ namespace BTL.Models
         public string Email { get; set; }
         [Required]
         public string Sdt { get; set; }
+
 
     }
 }
