@@ -126,6 +126,8 @@
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\AccountController.cs" />
+    <Compile Include="Controllers\HocPhansController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\KhoasController.cs" />
     <Compile Include="Controllers\LopsController.cs" />
@@ -149,8 +151,14 @@
     <Compile Include="Migrations\202111090902349_1234.Designer.cs">
       <DependentUpon>202111090902349_1234.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202111190705181_dangnhap.cs" />
+    <Compile Include="Migrations\202111190705181_dangnhap.Designer.cs">
+      <DependentUpon>202111190705181_dangnhap.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
+    <Compile Include="Models\AccountModel.cs" />
     <Compile Include="Models\AutoGenerateKey.cs" />
+    <Compile Include="Models\HocPhan.cs" />
     <Compile Include="Models\Khoa.cs" />
     <Compile Include="Models\Lop.cs" />
     <Compile Include="Models\QlySvDBcontext.cs" />
@@ -208,6 +216,12 @@
     <Content Include="Views\Lops\Details.cshtml" />
     <Content Include="Views\Lops\Edit.cshtml" />
     <Content Include="Views\Lops\Index.cshtml" />
+    <Content Include="Views\HocPhans\Create.cshtml" />
+    <Content Include="Views\HocPhans\Delete.cshtml" />
+    <Content Include="Views\HocPhans\Details.cshtml" />
+    <Content Include="Views\HocPhans\Edit.cshtml" />
+    <Content Include="Views\HocPhans\Index.cshtml" />
+    <Content Include="Views\Account\Login.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -237,6 +251,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202111090902349_1234.resx">
       <DependentUpon>202111090902349_1234.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202111190705181_dangnhap.resx">
+      <DependentUpon>202111190705181_dangnhap.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

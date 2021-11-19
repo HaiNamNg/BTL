@@ -8,10 +8,14 @@ namespace BTL.Controllers
 {
     public class HomeController : Controller
     {
+        [AllowAnonymous]
         public ActionResult Index()
         {
             return View();
         }
+        //muon kiem tra voi action dang nhap nao thi viet
+        //co the kiem tra voi ca controler
+        [Authorize]
 
         public ActionResult About()
         {
@@ -19,7 +23,7 @@ namespace BTL.Controllers
 
             return View();
         }
-
+        [Authorize]
         public ActionResult Contact()
         {
             ViewBag.Message = "Your contact page.";

@@ -9,9 +9,9 @@ namespace BTL.Models
     public class Khoa
     {
         [Key]
-        [Required, MinLength(3)]
+        [Required, MaxLength(20)]
         public string MaKhoa { get; set; }
-        [Required, MinLength(10)]
+        [Required, MaxLength(10)]
         public string TenKhoa { get; set; }
     }
 }
