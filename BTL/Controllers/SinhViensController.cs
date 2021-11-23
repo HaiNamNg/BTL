@@ -10,10 +10,11 @@ using BTL.Models;
 
 namespace BTL.Controllers
 {
+    [Authorize]
     public class SinhViensController : Controller
     {
         private QlySvDBcontext db = new QlySvDBcontext();
-
+        
         // GET: SinhViens
         public ActionResult Index()
         {

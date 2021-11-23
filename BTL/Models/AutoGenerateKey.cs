@@ -11,7 +11,7 @@ namespace BTL.Models
         {
             string strkey = "";
             //kiem tra gia tri id truyen vao la rong
-            return strkey = "";
+            return strkey;
         }
     }
 }

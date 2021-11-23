@@ -23,6 +23,8 @@ namespace BTL.Models
         public string Email { get; set; }
         [Required]
         public string Sdt { get; set; }
+        
+
 
 
     }

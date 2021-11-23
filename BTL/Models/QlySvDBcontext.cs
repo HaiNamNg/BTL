@@ -14,10 +14,11 @@ namespace BTL.Models
         public DbSet<SinhVien> SinhViens { get; set; }
         public DbSet<Lop> Lops { get; set; }
         public DbSet<Khoa> Khoas { get; set; }
+        public DbSet<HocPhan> HocPhans { get; set; }
+        public DbSet<Account> Accounts { get; set; }
+        
 
-        public System.Data.Entity.DbSet<BTL.Models.HocPhan> HocPhans { get; set; }
-
-        public System.Data.Entity.DbSet<BTL.Models.AccountModel> AccountModels { get; set; }
+        
     }
 
 

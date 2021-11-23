@@ -155,9 +155,14 @@
     <Compile Include="Migrations\202111190705181_dangnhap.Designer.cs">
       <DependentUpon>202111190705181_dangnhap.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202111230432227_hehehe.cs" />
+    <Compile Include="Migrations\202111230432227_hehehe.Designer.cs">
+      <DependentUpon>202111230432227_hehehe.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
-    <Compile Include="Models\AccountModel.cs" />
+    <Compile Include="Models\Account.cs" />
     <Compile Include="Models\AutoGenerateKey.cs" />
+    <Compile Include="Models\Encrytion.cs" />
     <Compile Include="Models\HocPhan.cs" />
     <Compile Include="Models\Khoa.cs" />
     <Compile Include="Models\Lop.cs" />
@@ -221,10 +226,10 @@
     <Content Include="Views\HocPhans\Details.cshtml" />
     <Content Include="Views\HocPhans\Edit.cshtml" />
     <Content Include="Views\HocPhans\Index.cshtml" />
-    <Content Include="Views\Account\Login.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Views\Account\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
@@ -254,6 +259,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202111190705181_dangnhap.resx">
       <DependentUpon>202111190705181_dangnhap.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202111230432227_hehehe.resx">
+      <DependentUpon>202111230432227_hehehe.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

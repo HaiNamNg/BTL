@@ -6,8 +6,9 @@ using System.Web;
 
 namespace BTL.Models
 {
-    public class AccountModel
+    public class Account
     {
+
         [Key]
         [Required(ErrorMessage = "Username is required.")]
         public string Username { get; set; }

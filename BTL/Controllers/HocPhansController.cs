@@ -10,6 +10,7 @@ using BTL.Models;
 
 namespace BTL.Controllers
 {
+    
     public class HocPhansController : Controller
     {
         private QlySvDBcontext db = new QlySvDBcontext();

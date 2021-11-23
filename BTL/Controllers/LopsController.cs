@@ -10,6 +10,7 @@ using BTL.Models;
 
 namespace BTL.Controllers
 {
+    [Authorize]
     public class LopsController : Controller
     {
         private QlySvDBcontext db = new QlySvDBcontext();
